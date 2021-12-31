@@ -2,7 +2,7 @@ const request = require('supertest');
 const mongodb = require('mongodb');
 const BackendApp = require('../app');
 
-describe.skip('Add message api spec', () => {
+describe('Add message api spec', () => {
   /** @type {request.SuperAgentTest} */
   let client;
   /** @type {mongodb.MongoClient} */
