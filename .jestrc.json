@@ -1,0 +1,11 @@
+{
+  "collectCoverage": true,
+  "coverageDirectory": "./public/unit-test/coverage",
+  "testEnvironment": "node",
+  "coveragePathIgnorePatterns": [
+      "/node_modules/"
+  ],
+  "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+  "coverageProvider": "v8",
+  "testTimeout": 60000
+}

@@ -1,0 +1,32 @@
+{
+  "name": "action-sample",
+  "version": "1.0.0",
+  "description": "github action sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config=.jestrc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xxxhand/action-sample.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xxxhand/action-sample/issues"
+  },
+  "homepage": "https://github.com/xxxhand/action-sample#readme",
+  "dependencies": {
+    "koa": "^2.13.4"
+  },
+  "pre-commit": [
+    "test"
+  ],
+  "devDependencies": {
+    "@types/jest": "^27.4.0",
+    "jest": "^27.4.5",
+    "pre-commit": "^1.2.2",
+    "supertest": "^6.1.6"
+  }
+}
