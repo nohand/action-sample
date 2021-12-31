@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/xxxhand/action-sample#readme",
   "dependencies": {
-    "koa": "^2.13.4"
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "mongodb": "^4.2.2"
   },
   "pre-commit": [
     "test"
@@ -26,6 +28,7 @@
   "devDependencies": {
     "@types/jest": "^27.4.0",
     "@types/koa": "^2.13.4",
+    "@types/koa__router": "^8.0.11",
     "@types/supertest": "^2.0.11",
     "jest": "^27.4.5",
     "pre-commit": "^1.2.2",

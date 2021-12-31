@@ -1,4 +1,5 @@
 const Koa = require('koa');
+const apiRouter = require('./api-router');
 
 class App {
   constructor() {
@@ -11,11 +12,7 @@ class App {
   }
 
   _init() {
-    this._app.use(async (ctx) => {
-      ctx.status = 200;
-      ctx.body = 'Hello world';
-    });
-
+    this._app.use(apiRouter.routes());
   }
 
 }

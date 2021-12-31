@@ -12,10 +12,10 @@ describe('Hello api spec', () => {
   });
   test('should get response success', async () => {
     const res = await client
-      .get('/')
+      .get('/api')
 
     expect(res.status).toBe(200)
-    expect(res.text).toBe('Hello world');
+    expect(res.body.result).toBe('Hello world');
 
     
       
